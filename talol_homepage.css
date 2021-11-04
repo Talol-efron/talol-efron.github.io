@@ -16,14 +16,18 @@ h1{color: deepskyblue;
 }
 
 .img_box{
-    width: 1424px;
-    justify-content: space-between;
     display: flex;
+	flex-wrap:wrap;
 }
 
 .img{
-    width: 400px;
+    width: calc(100%/3);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+    max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
 }
+
 .footer{
     background-color: black;
 }
