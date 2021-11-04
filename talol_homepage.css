@@ -28,6 +28,10 @@ h1{color: deepskyblue;
 	height: auto; /*画像の縦横比を維持 */
 }
 
+.img p {
+    font-size: 13px;
+    color: dimgray;
+  }
 .footer{
     background-color: black;
 }
