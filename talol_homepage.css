@@ -12,9 +12,13 @@ h1{color: deepskyblue;
 }
 
 .main{
-    background-color: cadetblue;    
+    text-align: center;  
 }
 
+.main ul{
+    list-style: none;
+    padding: 0;
+}
 .img_box{
     display: flex;
 	flex-wrap:wrap;
